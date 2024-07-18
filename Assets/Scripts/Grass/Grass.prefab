@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7397784153487828748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7397784153487828750}
+  - component: {fileID: 7397784153487828751}
+  m_Layer: 0
+  m_Name: Grass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7397784153487828750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397784153487828748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7397784153487828751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397784153487828748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead5dfea415ba154eabe835bb7aafba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceMeshFilter: {fileID: 0}
+  grassComputeShader: {fileID: 7200000, guid: 51c408fdc69a1b04a8a4a6c573cf9909, type: 3}
+  material: {fileID: 2100000, guid: 0b7c8ad35d412fe4a8e750088d67619b, type: 2}
+  settings:
+    maxBendAngle: 0.82
+    bladeHeight: 0.89
+    bladeHeightVariance: 0.86
+    bladeWidth: 0.52
+    bladeWidthVariance: 0.41
+    bladeCurvature: 3.87
+    maxSegments: 5
+    windNoiseTexture: {fileID: 2800000, guid: 97143ebb077626b4fb98f31ce3c93024, type: 3}
+    windTextureScale: 0.05
+    windPeriod: 0.05
+    windScale: 0.05
+    windAmplitude: 0.1
+    cameraLODMin: 3
+    cameraLODMax: 30
+    cameraLODFactor: 1
+    minHeight: 7
+    maxHeight: 15

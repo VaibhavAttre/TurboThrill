@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!205 &1976064962244030312
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7394837275302858500}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.01550293, y: 0.5610767, z: -0.056259096}
+  m_Size: 2
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.85142255
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8665691801952342159}
+    - renderer: {fileID: 7377776699959569680}
+    - renderer: {fileID: 1118149055550390129}
+  m_Enabled: 1
+--- !u!1001 &2470820730924293771
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4960049852195492239, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_Name
+      value: FINALIZEDGRASSPLEASEPLEASEPLEASE Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 218.75328
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.07833
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 882.82794
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737150120288783157, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+--- !u!1 &7394837275302858500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4960049852195492239, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+  m_PrefabInstance: {fileID: 2470820730924293771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8665691801952342159 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6487618447173455364, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+  m_PrefabInstance: {fileID: 2470820730924293771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7377776699959569680 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4911525643588973467, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+  m_PrefabInstance: {fileID: 2470820730924293771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1118149055550390129 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3300690997384389114, guid: ba015d6016528e94e9f69615d123ac32, type: 3}
+  m_PrefabInstance: {fileID: 2470820730924293771}
+  m_PrefabAsset: {fileID: 0}
